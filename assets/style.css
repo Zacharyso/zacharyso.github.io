@@ -1,1 +1,246 @@
-test
+
+body {
+  background: linear-gradient(#000 65%,#E5D9B6);
+  background-attachment: fixed;
+  color: deepskyblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pressy {
+  border-radius: 5ch;
+  border: none;
+  background-color: #242424;
+  padding: 10px 32px;
+  text-align: center;
+  border: 2px solid #4CAF50;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pressy:hover {
+  background-color: #000000;
+  /* Green */
+  color: #FFFF;
+}
+
+.test {
+  border-style: inset;
+  border-radius: 2ch;
+  border: 8px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.testy2 {
+  border-style: inset;
+  border-radius: 2ch;
+  border: 80px;
+  background-color: #000000;
+  text-align: center;
+  border-color: aliceblue;
+}
+
+.buton {
+  display: flex;
+  justify-content: center;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.finddisc {
+  display: flex;
+  justify-content: right;
+}
+
+.picture {
+  padding: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  border-style: dotted;
+  border-color: #242424;
+  background-color: #242424;
+  border-radius: .5ch;
+  border-width: 5px;
+  transition: 1.5s;
+}
+
+.row:hover {
+  background-color: #000;
+  border-style: inset;
+}
+
+.column1 {
+  flex: 20%;
+  flex-grow: 0;
+}
+
+.column2 {
+  flex: 50%;
+  flex-grow: 0;
+}
+
+.column3 {
+  flex: 20%;
+  flex-grow: 0;
+}
+
+.column4 {
+  flex: 10000%;
+  flex-grow: 0;
+}
+
+.MenuBarr {
+  border-style: none;
+  background-color: #242424;
+  transition-duration: 0.4s;
+  height: 50px;
+  font-size: large;
+}
+
+.MenuBarr:hover {
+  background-color: #000000;
+  /* Green */
+  color: #FFFF;
+}
+
+.Informational {
+  background-color: #000;
+  border-style: inset;
+  margin: 10%;
+  margin-top: 50px;
+  padding: 20px;
+  border-color: #242424;
+  border-radius: 50px;
+}
+
+.Informational-Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-style: inset;
+  border-color: #242424;
+  border-radius: 50px;
+  padding: 50px;
+  border-width:3mm;
+  background-color: #000000;
+}
+
+.Divvy2contactform {
+  display: flex;
+  justify-content: center;
+  border-radius: 2ch;
+  border-color: #4CAF50;
+  border: 8px outset #4CAF50 background-color: #000000 text-align: center;
+}
+
+.Containweb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowflex {
+  display: flex;
+  justify-content: center;
+}
+
+.wemake {
+  position: relative;
+  top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wantwebs {
+  color: #A4BE7B;
+  font-family: 'zen_dotsregular';
+}
+
+.cool {
+  padding: 2px;
+  font-size: larger;
+  font-family: 'zen_dotsregular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wegood {
+  font-family: 'zen_dotsregular' arial;
+  color: #CCD6A6;
+}
+
+.wemake2 {
+  position: relative;
+  top: 100px;
+}
+
+.arrow {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  left: 1100px;
+  bottom: 0px;
+}
+
+#lname {
+  position: relative;
+  left: 2px;
+}
+
+#age {
+  position:relative;
+ 
+}
+
+#contact {
+  position:relative;
+}
+
+.Submit {
+  border-style: inset;
+  border-color:#242424;
+  border-width: 5px;
+  border-radius: 5px;
+  background-color: rgb(59, 71, 59);
+  font-family: zen_dotsregular;
+  color:aliceblue;
+  padding: 20px;
+}
+
+.Submit:hover {
+  transition-duration: 700ms;
+  background-color: #242424;
+}
