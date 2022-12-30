@@ -1,9 +1,9 @@
 
 body {
-  background: linear-gradient(#000 65%,#E5D9B6);
+  background-color: deepskyblue;
   background-attachment: fixed;
   color: deepskyblue;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'zen_dotsregular';
 }
 
 .pressy {
@@ -18,7 +18,7 @@ body {
   padding-top: 10px;
   font-size: 16px;
   transition-duration: 0.4s;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'zen_dotsregular';
 }
 
 .pressy:hover {
@@ -78,6 +78,7 @@ a:active {
 
 .picture {
   padding: 20px;
+  background-color: #000;
 }
 
 .center {
@@ -105,29 +106,35 @@ a:active {
 .column1 {
   flex: 20%;
   flex-grow: 0;
+  border-style: inset;
 }
 
 .column2 {
   flex: 50%;
   flex-grow: 0;
+  border-style: inset;
 }
 
 .column3 {
   flex: 20%;
   flex-grow: 0;
+  border-style: inset;
 }
 
 .column4 {
   flex: 10000%;
   flex-grow: 0;
+  border-style: inset;
 }
 
 .MenuBarr {
   border-style: none;
-  background-color: #242424;
+  background-color: #000000;
   transition-duration: 0.4s;
   height: 50px;
   font-size: large;
+  font-family: 'zen_dotsregular';
+  color: aliceblue;
 }
 
 .MenuBarr:hover {
@@ -143,7 +150,7 @@ a:active {
   margin-top: 50px;
   padding: 20px;
   border-color: #242424;
-  border-radius: 50px;
+  border-radius: 50
 }
 
 .Informational-Contact {
@@ -155,7 +162,6 @@ a:active {
   width: 300px;
   border-style: inset;
   border-color: #242424;
-  border-radius: 50px;
   padding: 50px;
   border-width:3mm;
   background-color: #000000;
@@ -173,6 +179,7 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #000;
 }
 
 .rowflex {
@@ -183,7 +190,7 @@ a:active {
 .wemake {
   position: relative;
   top: 100px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'zen_dotsregular';
 }
 
 .wantwebs {
@@ -194,11 +201,11 @@ a:active {
 .cool {
   padding: 2px;
   font-size: larger;
-  font-family: 'zen_dotsregular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'zen_dotsregular';
 }
 
 .wegood {
-  font-family: 'zen_dotsregular' arial;
+  font-family: 'zen_dotsregular';
   color: #CCD6A6;
 }
 
@@ -235,7 +242,7 @@ a:active {
   border-width: 5px;
   border-radius: 5px;
   background-color: rgb(59, 71, 59);
-  font-family: zen_dotsregular;
+  font-family: 'zen_dotsregular';
   color:aliceblue;
   padding: 20px;
 }
@@ -243,4 +250,15 @@ a:active {
 .Submit:hover {
   transition-duration: 700ms;
   background-color: #242424;
+}
+
+.Index {
+  border-style: inset;
+  background-color: #000;
+  padding: 50px;
+}
+.Index2 {
+  border-style: inset;
+  background-color: #000;
+  padding: 20px;
 }
