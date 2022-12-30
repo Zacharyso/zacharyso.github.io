@@ -3,7 +3,8 @@
 
 <head>
     <meta charset='utf-8'>
-    <title>Contact</title>
+    <title>Contact - zakweb</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,33 +15,44 @@
         </div>
     </div>
     <div class="rowflex">
-    <div class="row">
-        <div class="column1">
-            <button class="MenuBarr" onclick="window.location.href = 'index.html';">
-                Home
-            </button>
+        <div class="row">
+            <div class="column1">
+                <button class="MenuBarr" onclick="window.location.href = 'index.html';">
+                    Home
+                </button>
+            </div>
+            <div class="column2">
+                <button class="MenuBarr" onclick="window.location.href = 'About.html';">
+                    About
+                </button>
+            </div>
+            <div class="column3">
+                <button class="MenuBarr" onclick="window.location.href = 'Hobbies.html';">
+                    Hobbies
+                </button>
+            </div>
+            <div class="column4">
+                <button class="MenuBarr" onclick="window.location.href = 'Contact.html';">
+                    Contact
+                </button>
+            </div>
         </div>
-        <div class="column2">
-            <button class="MenuBarr" onclick="window.location.href = 'index.html';">
-                About
-            </button>
-        </div>
-        <div class="column3">
-            <button class="MenuBarr" onclick="window.location.href = 'Hobbies.html';">
-                Hobbies
-            </button>
-        </div>
-        <div class="column4">
-            <button class="MenuBarr" onclick="window.location.href = 'Contact.html';">
-                Contact
-            </button>
-        </div>
-    </div>
     </div>
         <br>
         <div class="Informational-Contact">
             <div class="Title">
                 <h2>Contact Application</h2>
+                <form id="contact" action="mailto:teezsach@gmail.com" method="post">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lastname" placeholder="Your Last Name.."><br><br>
+                    <label for="age">Date Of Birth:</label><br>
+                    <input type="date" id="age" name="age" placeholder="dd/mm/yyyy"><br><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="text" id="email" name="email" placeholder="johndoe@example.com"><br><br>
+                    <button class="Submit">Submit</button>
+                </form>
             </div>
         </div>
         <br>

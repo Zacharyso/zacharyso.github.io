@@ -3,15 +3,12 @@
 
 <head>
     <meta charset='utf-8'>
-    <title>ZakWeb</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        hr {
-            background-color: blue;
-            border-style: dotted;
-            width: 1000px;
-        }
-    </style>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home - Zakweb</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src='main.js'></script>
 </head>
 
 <body>
@@ -21,49 +18,64 @@
         </div>
     </div>
     <div class="rowflex">
-    <div class="row">
-        <div class="column1">
-            <button class="MenuBarr" onclick="window.location.href = 'index.html';">
-                Home
-            </button>
-        </div>
-        <div class="column2">
-            <button class="MenuBarr" onclick="window.location.href = 'index.html';">
-                About
-            </button>
-        </div>
-        <div class="column3">
-            <button class="MenuBarr" onclick="window.location.href = 'Hobbies.html';">
-                Hobbies
-            </button>
-        </div>
-        <div class="column4">
-            <button class="MenuBarr" onclick="window.location.href = 'Contact.html';">
-                Contact
-            </button>
+        <div class="row">
+            <div class="column1">
+                <button class="MenuBarr" onclick="window.location.href = 'index.html';">
+                    Home
+                </button>
+            </div>
+            <div class="column2">
+                <button class="MenuBarr" onclick="window.location.href = 'About.html';">
+                    About
+                </button>
+            </div>
+            <div class="column3">
+                <button class="MenuBarr" onclick="window.location.href = 'Hobbies.html';">
+                    Hobbies
+                </button>
+            </div>
+            <div class="column4">
+                <button class="MenuBarr" onclick="window.location.href = 'Contact.html';">
+                    Contact
+                </button>
+            </div>
         </div>
     </div>
+    <div class="wemake">
+        <h1 class="wantwebs">Want a<span class="cool"> Cool </span>Website made?</h1>
+        <h1 class="wegood">We're pretty good at that!</h1>
     </div>
-    <div class="Informational">
-        <table>
-            <tr>
-                <td>
-                    <div class="picture"><img src="index-modified.png" width="200" height="200" alt="Zak Tees pic">
-                    </div>
-                </td>
-                <td>
-                    <h1>Zak Tees</h1>
-                    <p><em>Student of Web Development <br> <a href="https://www.google.com/search">Ultra
-                                chad</a></em></p>
-                    <p>I have a strong liking to the fields of web development, I am studying to become a full stack
-                        web dev in the future. I love Video Games, computers, coding and money.</p>
-                </td>
-            </tr>
-        </table>
-        <p><a href="Contact.html">Contact Details</a></p>
-        <hr size="3" noshade="">
-        <a href="Hobbies.html"> My Hobbies</a>
-        <br>
+    <br>
+    <div class="wemake3">
+        <div class="wemake2">
+            <h2 class="rates">Rates start as low as €5 per hour!</h2>
+            <h1 class="willing">Willing to work for cheap. fill out the form below to get in contact</h1>
+            <img class="arrow" src="arrow.png" alt="arrow">
+        </div>
+    </div>
+    <div class="Informational-Contact">
+        <div class="Title">
+            <h2>Contact Application</h2>
+            <form id="contact" action="mailto:teezsach@gmail.com?subject=Contact" method="post">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name.."><br><br>
+                <label for="age">Date Of Birth:</label><br>
+                <input type="date" id="age" name="age" placeholder="dd/mm/yyyy"><br><br>
+                <label for="email">Email Address</label><br>
+                <input type="text" id="email" name="email" placeholder="johndoe@example.com"><br><br>
+                <button class="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="finddisc">
+        <h3>You can find me on Discord</h3>
+        <p><i>dazwit#1247</i></p>
+    </div>
     </div>
 </body>
 

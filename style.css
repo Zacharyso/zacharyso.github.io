@@ -1,16 +1,7 @@
-.Divvy1contactform {
-  display: flex;
-  justify-content: center;
-  width: 400px;
-  height: 500px;
-  border-radius: 2ch;
-  border-color: #4CAF50;
-  border: 8px outset #4CAF50 background-color: #000000 text-align: center;
-  margin: 100px;
-}
 
 body {
-  background-color: black;
+  background: linear-gradient(#000 65%,#E5D9B6);
+  background-attachment: fixed;
   color: deepskyblue;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -98,11 +89,17 @@ a:active {
   padding: 5px;
   display: flex;
   justify-content: flex-start;
-  border-style: inset;
-  border-color: #4CAF50;
-  background-color: rgb(7, 84, 84);
+  border-style: dotted;
+  border-color: #242424;
+  background-color: #242424;
   border-radius: .5ch;
   border-width: 5px;
+  transition: 1.5s;
+}
+
+.row:hover {
+  background-color: #000;
+  border-style: inset;
 }
 
 .column1 {
@@ -127,7 +124,7 @@ a:active {
 
 .MenuBarr {
   border-style: none;
-  background-color: rgb(7, 84, 84);
+  background-color: #242424;
   transition-duration: 0.4s;
   height: 50px;
   font-size: large;
@@ -140,34 +137,36 @@ a:active {
 }
 
 .Informational {
+  background-color: #000;
   border-style: inset;
   margin: 10%;
   margin-top: 50px;
   padding: 20px;
-  border-color: #4CAF50;
+  border-color: #242424;
   border-radius: 50px;
 }
 
 .Informational-Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
   border-style: inset;
-  margin: 10%;
-  margin-top: 50px;
-  border-color: #4CAF50;
+  border-color: #242424;
   border-radius: 50px;
   padding: 50px;
+  border-width:3mm;
+  background-color: #000000;
 }
 
 .Divvy2contactform {
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: 500px;
   border-radius: 2ch;
   border-color: #4CAF50;
   border: 8px outset #4CAF50 background-color: #000000 text-align: center;
-}
-
-.zakweblogo {
 }
 
 .Containweb {
@@ -179,4 +178,69 @@ a:active {
 .rowflex {
   display: flex;
   justify-content: center;
+}
+
+.wemake {
+  position: relative;
+  top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wantwebs {
+  color: #A4BE7B;
+  font-family: 'zen_dotsregular';
+}
+
+.cool {
+  padding: 2px;
+  font-size: larger;
+  font-family: 'zen_dotsregular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wegood {
+  font-family: 'zen_dotsregular' arial;
+  color: #CCD6A6;
+}
+
+.wemake2 {
+  position: relative;
+  top: 100px;
+}
+
+.arrow {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  left: 1100px;
+  bottom: 0px;
+}
+
+#lname {
+  position: relative;
+  left: 2px;
+}
+
+#age {
+  position:relative;
+ 
+}
+
+#contact {
+  position:relative;
+}
+
+.Submit {
+  border-style: inset;
+  border-color:#242424;
+  border-width: 5px;
+  border-radius: 5px;
+  background-color: rgb(59, 71, 59);
+  font-family: zen_dotsregular;
+  color:aliceblue;
+  padding: 20px;
+}
+
+.Submit:hover {
+  transition-duration: 700ms;
+  background-color: #242424;
 }
